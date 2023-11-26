@@ -1,0 +1,28 @@
+{
+  "name": "outro-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/infrastructure/app/main.ts"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/slug": "^5.0.7",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.2",
+    "date-fns": "^2.30.0",
+    "fs-jetpack": "^5.1.0",
+    "inversify": "^6.0.2",
+    "lodash": "^4.17.21",
+    "lowdb": "^6.1.1",
+    "reflect-metadata": "^0.1.13",
+    "slug": "^8.2.3",
+    "ufo": "^1.3.2",
+    "zod": "^3.22.4"
+  }
+}

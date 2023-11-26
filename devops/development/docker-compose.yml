@@ -1,0 +1,10 @@
+services:
+  outro:
+    build:
+      context: ../docker
+    command: sh -c "tail -f /dev/null"
+    user: bun
+    working_dir: /code
+    container_name: outro
+    volumes:
+      - ../../:/code
